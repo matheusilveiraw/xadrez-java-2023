@@ -26,9 +26,7 @@ public class PartidaDeXadrez {
 	}
 	
 	private void initialSetup() { 
-		tabuleiro.botaPeca(new Torre(tabuleiro, Cor.BRANCO), new Posicao(2,1));
+		tabuleiro.botaPeca(new Torre(tabuleiro, Cor.BRANCO), new Posicao(5,1));
 		tabuleiro.botaPeca(new Rei(tabuleiro, Cor.BRANCO), new Posicao(5,1));
-
 	}
-	
 }
